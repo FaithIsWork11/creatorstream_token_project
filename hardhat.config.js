@@ -5,9 +5,10 @@ require("dotenv").config();
 module.exports = {
   solidity: "0.8.20",
   networks: {
-    stratos: {
+    stratosTestnet: {
       url: process.env.STRATOS_RPC_URL, // from .env file
-      accounts: [process.env.PRIVATE_KEY] // from .env file
+      accounts: [process.env.PRIVATE_KEY],
+      chainId: Number(process.env.CHAIN_ID) // from .env file
     }
   }
 };
