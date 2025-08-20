@@ -4,7 +4,7 @@ describe("CreatorStreamToken", function () {
   let Token, token, owner, addr1, addr2;
 
   beforeEach(async function () {
-    Token = await ethers.getContractFactory("CreatorStreamToken");
+    Token = await ethers.getContractFactory("CreatorStream");
     [owner, addr1, addr2] = await ethers.getSigners();
 
     token = await Token.deploy("CreatorStreamToken", "CST", 1000000);
