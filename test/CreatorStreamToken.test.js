@@ -1,6 +1,6 @@
 const { expect } = require("chai");
 
-describe("CreatorStreamToken", function () {
+describe("CreatorStream", function () {
   let Token, token, owner, addr1, addr2;
 
   beforeEach(async function () {
