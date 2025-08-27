@@ -8,7 +8,11 @@
   "dependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "@openzeppelin/contracts": "^5.0.0",
+    "@safe-global/protocol-kit": "^6.1.0",
+    "@safe-global/safe-core-sdk": "^3.3.5",
+    "@safe-global/safe-deployments": "^1.37.42",
     "dotenv": "^17.2.1",
+    "ethers": "^5.8.0",
     "hardhat": "^2.22.0"
   }
 }
