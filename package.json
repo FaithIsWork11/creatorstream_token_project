@@ -6,13 +6,18 @@
     "deploy": "npx hardhat run scripts/deploy.js --network stratos"
   },
   "dependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "@openzeppelin/contracts": "^5.0.0",
     "@safe-global/protocol-kit": "^6.1.0",
     "@safe-global/safe-core-sdk": "^3.3.5",
     "@safe-global/safe-deployments": "^1.37.42",
     "dotenv": "^17.2.1",
     "ethers": "^5.8.0",
-    "hardhat": "^2.22.0"
+    "hardhat": "^2.22.0",
+    "viem": "^2.36.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@safe-global/safe-contracts": "^1.4.1-2",
+    "hardhat-dependency-compiler": "^1.2.1"
   }
 }
