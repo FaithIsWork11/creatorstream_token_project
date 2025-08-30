@@ -1,2 +1,23 @@
-node_modules
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Hardhat / Safe
+artifacts/
+cache/
+coverage/
+typechain*/
+*.dbg.json
+
+# Env & secrets
 .env
+.env.*
+.npmrc
+
+# Editors/OS
+.vscode/
+.DS_Store
+*.swp
+*.tsbuildinfo
